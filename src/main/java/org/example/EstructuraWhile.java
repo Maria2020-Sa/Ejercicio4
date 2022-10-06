@@ -5,9 +5,12 @@ package org.example;
 //Mostrarlo por pantalla cada vez que se ejecute.
 
 public class EstructuraWhile {
+    public static void main (String[] args){
+        int numerowhile = 0;
 
-    int numeroWhile = 2;
-    While( )
-
-
+        while (numerowhile < 3){
+            System.out.println (numerowhile);
+            numerowhile++;
+        }
+    }
 }
